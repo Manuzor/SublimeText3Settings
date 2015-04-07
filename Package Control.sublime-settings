@@ -1,0 +1,20 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"EditorConfig",
+		"GitGutter",
+		"INI",
+		"Jedi - Python autocompletion",
+		"Monokai Extended",
+		"Package Control",
+		"Pretty JSON",
+		"Pylinter",
+		"Python Improved",
+		"RevertFontSize",
+		"SideBarEnhancements",
+		"Theme - SoDaReloaded"
+	]
+}
