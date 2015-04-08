@@ -1,0 +1,3 @@
+# Even the Package Control.sublime-settings file only contains information
+# that is not portable across installations.
+Package\ Control*
