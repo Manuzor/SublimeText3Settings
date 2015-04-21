@@ -7,4 +7,11 @@
   
   { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
   { "keys": ["ctrl+shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+
+  { "keys": ["ctrl+q"], "command": "close" },
+
+  { "keys": ["ctrl+m"], "command": "toggle_record_macro" },
+  { "keys": ["ctrl+shift+m"], "command": "run_macro" },
+
+  { "keys": ["ctrl+w"], "command": "expand_region" },
 ]
