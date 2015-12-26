@@ -10,6 +10,9 @@
 
   { "keys": ["ctrl+q"], "command": "close" },
 
+  { "keys": ["ctrl+\\"], "command": "reindent" },
+  { "keys": ["ctrl+shift+\\"], "command": "alignment" },
+
   { "keys": ["ctrl+m"], "command": "toggle_record_macro" },
   { "keys": ["ctrl+shift+m"], "command": "run_macro" },
 
