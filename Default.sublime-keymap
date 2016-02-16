@@ -10,10 +10,15 @@
 
   { "keys": ["ctrl+q"], "command": "close" },
 
+  { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+
   { "keys": ["ctrl+\\"], "command": "reindent" },
   { "keys": ["ctrl+shift+\\"], "command": "alignment" },
 
-  { "keys": ["shift+space"], "command": "add_space_inplace" },
+  { "keys": ["alt+space"], "command": "add_space_inplace" },
+
+  { "keys": ["ctrl+,"], "command": "jump_back" },
+  { "keys": ["ctrl+."], "command": "jump_forward" },
 
   { "keys": ["ctrl+m"], "command": "toggle_record_macro" },
   { "keys": ["ctrl+shift+m"], "command": "run_macro" },

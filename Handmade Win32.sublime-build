@@ -1,4 +1,11 @@
 {
-  "shell_cmd": "Build",
-  "file_regex": "^ *([A-z]:.*)[(]([0-9]+)[)]"
+  "cmd": [ "${folder}\\code\\build.bat", "-noprogress" ],
+  "file_regex": "^ *([A-z]:.*)[(]([0-9]+)[)]",
+
+  "variants": [
+    {
+      "name": "Clean Build",
+      "cmd": [ "build.bat", "-noprogress", "-clean" ]
+    }
+  ]
 }
