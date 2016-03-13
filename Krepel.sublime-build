@@ -15,6 +15,14 @@
       {
         "cmd": [ "${folder}\\build.bat", "krepel_tests" ]
       }
+    },
+    {
+      "name": "Win32 Experiments",
+
+      "windows":
+      {
+        "cmd": [ "${folder}\\build.bat", "win32_experiments" ]
+      }
     }
   ]
 }

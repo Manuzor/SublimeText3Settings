@@ -1,0 +1,27 @@
+{
+  "cmd": [ "rdmd", "-debug", "-gc", "${folder}\\build.d",
+           "clean", "handmade", "win32_handmade"
+  ],
+  "file_regex": "^ *([A-z]:.*)[(]([0-9]+)[)]",
+
+  "variants": [
+    {
+      "name": "Win32 Game DLL",
+      "cmd": [ "rdmd", "-debug", "-gc", "${folder}\\build.d",
+               "handmade"
+      ]
+    },
+    {
+      "name": "Win32 Game Executable",
+      "cmd": [ "rdmd", "-debug", "-gc", "${folder}\\build.d",
+               "win32_handmade"
+      ]
+    },
+    {
+      "name": "Win32 Clean Build Directory",
+      "cmd": [ "rdmd", "-debug", "-gc", "${folder}\\build.d",
+               "clean"
+      ]
+    }
+  ]
+}
