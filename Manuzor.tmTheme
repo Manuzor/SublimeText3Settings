@@ -146,7 +146,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string><!-- italic --></string>
 				<key>foreground</key>
 				<string>#66D9EF</string>
 			</dict>
@@ -172,7 +172,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic underline</string>
+				<string><!-- italic --> underline</string>
 				<key>foreground</key>
 				<string>#A6E22E</string>
 			</dict>
@@ -198,7 +198,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string><!-- italic --></string>
 				<key>foreground</key>
 				<string>#FD971F</string>
 			</dict>
@@ -263,7 +263,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string><!-- italic --></string>
 				<key>foreground</key>
 				<string>#66D9EF</string>
 			</dict>
