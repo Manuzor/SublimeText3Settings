@@ -1,0 +1,7 @@
+[
+  {
+    "caption": "Time: Insert current date and time",
+    "command": "insert_current_time",
+    "args": { "fmt": "%Y-%m-%d %H:%M"}
+  },
+]
