@@ -13,7 +13,12 @@
 	"auto_complete_with_fields": false,
 	"color_scheme": "Packages/Monokai Extended/Monokai Extended Bright.tmTheme",
 	"default_line_ending": "unix",
-	"font_size": 10,
+	"font_size": 12,
+	"font_options":
+	[
+		"no_italic",
+		"directwrite",
+	],
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
