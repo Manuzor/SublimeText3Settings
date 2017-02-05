@@ -5,23 +5,27 @@ from pathlib import *
 
 extraPackages = [
   "Alignment",
+  "AutoHotkey",
   "CMakeEditor",
   "EditorConfig",
+  "FASTBuild",
   "FileDiffs",
   "Git",
   "GitGutter",
   "HexViewer",
   "IDL-Syntax",
   "Indent XML",
-  "LaTeXTools",
   "Markdown Preview",
-  "Monokai Extended",
   "Package Control",
   "PowerShell",
   "RevertFontSize",
+  "Schemr",
   "SDLang",
+  "Shader Syntax (GLSL HLSL Cg)",
   "SideBarEnhancements",
-  "Theme - SoDaReloaded"
+  "Solarized Color Scheme",
+  "Theme - SoDaReloaded",
+  "VimL"
 ]
 
 def main():
