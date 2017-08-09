@@ -38,5 +38,6 @@
 	"tab_size": 2,
 	"theme": "SoDaReloaded Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
+	"emvee_start_in_normal_mode": true,
 	"word_wrap": false,
 }

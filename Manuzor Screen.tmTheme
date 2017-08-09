@@ -1,6 +1,27 @@
 <!--
 Based on Sublime Text 3's Monokai
  -->
+<!-- 
+	Palette:
+		Background:    082628
+		Caret:         F8F8F0
+		Foreground:    D8D8D4
+		LineHighlight: FFFACE10
+		Selection: 5ACB4CA0
+		SelectionForeground: FFFFF8
+		InactiveSelection: BBBBBB
+		inactiveSelectionForeground: 222222
+		findHighlightForeground: 000000
+		activeGuide: 9D550FB0
+
+		Comments: 778C80
+		Strings: E6DB74
+		Constants: AE81FF
+		Keywords: F74A27
+		BuiltIns: 66D9EF
+		Declarations: A6E22E
+		Function Call/Param: FD971F
+ -->
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -17,7 +38,7 @@ Based on Sublime Text 3's Monokai
 				<key>caret</key>
 				<string>#F8F8F0</string>
 				<key>foreground</key>
-				<string>#F8F8F2</string>
+				<string>#D8D8D4</string>
 				<key>invisibles</key>
 				<string>#3B3A32</string>
 				<key>lineHighlight</key>
@@ -27,7 +48,7 @@ Based on Sublime Text 3's Monokai
 				<key>selectionForeground</key>
 				<string>#fffff8</string>
 				<key>inactiveSelection</key>
-				<string>#bbbbbb</string>
+				<string>#BBBBBB</string>
 				<key>inactiveSelectionForeground</key>
 				<string>#222222</string>
 				<key>findHighlight</key>
@@ -125,7 +146,7 @@ Based on Sublime Text 3's Monokai
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#F74A27</string>
 			</dict>
 		</dict>
 		<dict>
@@ -138,7 +159,7 @@ Based on Sublime Text 3's Monokai
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#F74A27</string>
 			</dict>
 		</dict>
 		<dict>
@@ -203,7 +224,7 @@ Based on Sublime Text 3's Monokai
 				<key>fontStyle</key>
 				<string><!-- italic --></string>
 				<key>foreground</key>
-				<string>#FD971F</string>
+				<string><!-- #FD971F --></string>
 			</dict>
 		</dict>
 		<dict>
@@ -216,7 +237,7 @@ Based on Sublime Text 3's Monokai
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#F74A27</string>
 			</dict>
 		</dict>
 		<dict>
@@ -294,7 +315,7 @@ Based on Sublime Text 3's Monokai
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#F74A27</string>
 			</dict>
 		</dict>
 		<dict>
@@ -341,7 +362,7 @@ Based on Sublime Text 3's Monokai
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#F74A27</string>
 			</dict>
 		</dict>
 		<dict>
@@ -383,6 +404,20 @@ Based on Sublime Text 3's Monokai
 			<dict>
 				<key>foreground</key>
 				<string>#E6DB74</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Function Name</string>
+			<key>scope</key>
+			<string>variable.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FD971F</string>
 			</dict>
 		</dict>
 
