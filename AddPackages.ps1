@@ -27,19 +27,36 @@ $ExtraPackages = @(
   "VimL";
 )
 
-$PSScriptRoot
-$TargetFilePath = Join-Path -Resolve $PSScriptRoot "../User/Package Control.sublime-settings"
+$TargetFilePath = Join-Path $PSScriptRoot "../User/Package Control.sublime-settings"
 
-$Content = Get-Content -Raw $TargetFilePath
-$Json = ConvertFrom-Json $Content
-
-foreach($Package in $ExtraPackages)
+if($False)
+# if(Test-Path $TargetFilePath)
 {
-  if(!($Json.installed_packages -contains $Package))
-  {
-    $Json.installed_packages += $Package
-  }
-}
+  $Content = Get-Content -Raw $TargetFilePath
+  $Json = ConvertFrom-Json $Content
 
-$NewContent = ConvertTo-Json $Json
-Set-Content -Path $TargetFilePath -Value $NewContent
+  foreach($Package in $ExtraPackages)
+  {
+    if(!($Json.installed_packages -contains $Package))
+    {
+      $Json.installed_packages += $Package
+    }
+  }
+
+  $NewContent = ConvertTo-Json $Json
+  Set-Content -Path $TargetFilePath -Value $NewContent
+}
+else
+{
+  $NewContent = @"
+{
+`t"installed_packages":
+`t[
+`t`t"$($ExtraPackages -join "`",`n`t`t`"")"
+`t]
+}
+"@
+
+  New-Item -Force (Split-Path -Parent $TargetFilePath)
+  Set-Content -Path $TargetFilePath -Value $NewContent
+}
