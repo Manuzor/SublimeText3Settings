@@ -3,6 +3,7 @@
     Adds some default packages to the "User/Package Control.sublime-settings" file.
 #>
 $ExtraPackages = @(
+  "Theme - SoDaReloaded";
   "Alignment";
   "AutoHotkey";
   "CMakeEditor";
@@ -23,7 +24,6 @@ $ExtraPackages = @(
   "Shader Syntax (GLSL HLSL Cg)";
   "SideBarEnhancements";
   "Solarized Color Scheme";
-  "Theme - SoDaReloaded";
   "VimL";
 )
 
@@ -57,6 +57,6 @@ else
 }
 "@
 
-  New-Item -Force (Split-Path -Parent $TargetFilePath)
+  New-Item -Force (Split-Path -Parent $TargetFilePath) -ItemType Directory
   Set-Content -Path $TargetFilePath -Value $NewContent
 }
