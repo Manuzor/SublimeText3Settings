@@ -29,8 +29,7 @@ $ExtraPackages = @(
 
 $TargetFilePath = Join-Path $PSScriptRoot "../User/Package Control.sublime-settings"
 
-if($False)
-# if(Test-Path $TargetFilePath)
+if(Test-Path $TargetFilePath)
 {
   $Content = Get-Content -Raw $TargetFilePath
   $Json = ConvertFrom-Json $Content
