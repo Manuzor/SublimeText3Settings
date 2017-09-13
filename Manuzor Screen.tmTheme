@@ -4,6 +4,7 @@ Based on Sublime Text 3's Monokai
 <!-- 
 	Palette:
 		Background:    082628
+		Gutter:        092C2D
 		Caret:         F8F8F0
 		Foreground:    D8D8D4
 		LineHighlight: FFFACE10
@@ -39,6 +40,8 @@ Based on Sublime Text 3's Monokai
 				<string>#F8F8F0</string>
 				<key>foreground</key>
 				<string>#D8D8D4</string>
+				<key>gutter</key>
+				<string>#092C2D</string>
 				<key>invisibles</key>
 				<string>#3B3A32</string>
 				<key>lineHighlight</key>
