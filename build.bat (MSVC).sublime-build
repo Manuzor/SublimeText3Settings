@@ -1,0 +1,4 @@
+{
+  "shell_cmd": "build.bat",
+  "file_regex": "(.*?)\\((\\d+),(\\d+)\\):\\s*error.*?:\\s*(.*)"
+}
