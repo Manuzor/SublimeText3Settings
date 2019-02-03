@@ -1,6 +1,5 @@
 {
     "target": "build_bat",
     "cancel": { "kill": true },
-    // TODO: find out how to make sublime understand file paths with a custom build system
-    // "file_regex": "(.*?)\\((\\d+)(?:,(\\d+))?\\):.+?:\\s*(.*)"
+    "file_regex": "(.*?)\\((\\d+)(?:,(\\d+))?\\):.+?:\\s*(.*)"
 }
