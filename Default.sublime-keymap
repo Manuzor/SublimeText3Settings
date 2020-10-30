@@ -21,6 +21,8 @@
   { "keys": ["ctrl+m"], "command": "toggle_record_macro" },
   { "keys": ["ctrl+shift+m"], "command": "run_macro" },
 
+  { "keys": ["ctrl+k", "ctrl+s"], "command": "switch_editor" },
+
   {"command": "sublime_jedi_goto", "keys": ["alt+g"],
     "context": [
       {"key": "selector", "operator": "equal", "operand":  "source.python - string - comment"}

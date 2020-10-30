@@ -1,0 +1,12 @@
+[
+  {
+    "caption": "Switch Editor: Switch to Editor",
+    "command": "switch_editor",
+    "args": { }
+  },
+  {
+    "caption": "Switch Editor: Choose Editor",
+    "command": "switch_editor",
+    "args": { "ask": true }
+  }
+]
